@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Note-App Basic js project">
+    <meta name="keywords" content="js,noteapp,html,css">
+    <meta name="author" content="Naveen014">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Note App-add your Notes</title>
+</head>
+<body>
+    <div class="container">
+        <div class="popup-box">
+            <div class="popup">
+                <div class="content">
+                    <header>
+                        <p>Add a new note</p>
+                        <i class="fa-solid fa-xmark"></i>
+                    </header>
+                    <form action="">
+                        <div class="row title">
+                            <label for="">Title</label>
+                            <input type="text">
+                        </div>
+                        <div class="row description">
+                            <label for="">Description</label>
+                            <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+                        </div>
+                        <button id="addNote">Add Note</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper">
+
+            <li class="add-box">
+                <div >
+                    <i class="fa-solid fa-plus"></i>
+                    <p>Add new note</p>
+                </div>
+            </li>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
